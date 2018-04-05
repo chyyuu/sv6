@@ -26,7 +26,7 @@
 #define VICTIMAGE 1000000 // cycles a proc executes before an eligible victim
 #define NDISK         8  // maximum number of hard disks in the machine
 #define USE_SATA_NCQ  0  // Native Command Queuing for SATA hard disks
-#define VERBOSE       0  // print kernel diagnostics
+#define VERBOSE       1  // print kernel diagnostics
 #define SPINLOCK_DEBUG DEBUG // Debug spin locks
 #define RCU_TYPE_DEBUG DEBUG
 #define LOCKSTAT      DEBUG
@@ -78,7 +78,7 @@
 // QEMU-based targets
 //
 #if defined(HW_qemu)
-#define DEBUG         0
+#define DEBUG         1
 #define NCPU          4   // maximum number of CPUs
 #define NSOCKET       1
 #define PERFSIZE      (16<<20ull)
