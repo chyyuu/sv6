@@ -30,3 +30,6 @@ cscope.*
 /libutil/testgen.c
 /libutil/testgen.*.c
 riscv-pk/
+.idea/*
+CMakeLists.txt
+cmake-build-debug/
